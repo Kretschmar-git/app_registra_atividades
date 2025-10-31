@@ -1,0 +1,39 @@
+/* assets/css/style.css */
+
+/*
+ * Força o corpo da página a ocupar pelo menos 100% da altura da tela (viewport height).
+ * Isso é essencial para fazer o "footer grudento" (sticky footer) funcionar.
+ */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*
+ * Esta classe é usada no <main> ou <div class="container"> principal das páginas.
+ * O 'flex-grow: 1' diz ao container para "crescer" e ocupar todo o espaço
+ * disponível entre o header (navbar) e o footer.
+ */
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+/* * O 'mt-auto' (margin-top: auto) no footer (que já está no includes/footer.php)
+ * fará com que ele seja empurrado para o final da página, graças ao
+ * 'display: flex' e 'flex-direction: column' no body.
+ */
+
+/* * Adiciona uma sombra sutil aos cards para destacá-los um pouco.
+ */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* * Melhora a aparência dos botões de ação na tabela do dashboard.
+ */
+#tabela-atividades .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
