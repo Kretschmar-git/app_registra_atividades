@@ -38,7 +38,7 @@ O projeto foi estruturado para ser modular e de fácil manutenção, separando a
 ## 📂 Estrutura de Arquivos
 
 A estrutura do projeto foi organizada da seguinte forma:
-
+```
 / (Diretório Raiz)<br>
 |<br>
 |--- acoes/<br>
@@ -65,7 +65,7 @@ A estrutura do projeto foi organizada da seguinte forma:
 |--- dashboard.php (Painel principal do usuário logado para gerenciar atividades)<br>
 |--- perfil.php (Página para o usuário alterar seus dados, como a senha)<br>
 |--- README.md (Documentação do projeto)<br>
-
+```
 ## 🚀 Como Executar o Projeto
 
 1.  **Pré-requisitos**:
