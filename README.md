@@ -41,31 +41,31 @@ A estrutura do projeto foi organizada da seguinte forma:
 ```
 / (Diretório Raiz)
 |
-|--- acoes/
-| |-- acao_cadastro.php         (Processa o formulário de registro de novos usuários)
-| |-- acao_login.php            (Processa o formulário de login e autenticação)
-| |-- acao_logout.php           (Finaliza a sessão do usuário)
-| |-- acao_perfil.php           (Processa a alteração de senha do usuário)
-| |-- gerenciar_atividades.php  (API para criar, ler, atualizar e deletar atividades via AJAX)
+├── acoes/
+|   ├── acao_cadastro.php         (Processa o formulário de registro de novos usuários)
+|   ├── acao_login.php            (Processa o formulário de login e autenticação)
+|   ├── acao_logout.php           (Finaliza a sessão do usuário)
+|   ├── acao_perfil.php           (Processa a alteração de senha do usuário)
+|   └── gerenciar_atividades.php  (API para criar, ler, atualizar e deletar atividades via AJAX)
 |
-|--- includes/
-| |-- cabecalho.php             (Componente reutilizável: cabeçalho HTML, menu, etc.)
-| |-- rodape.php                (Componente reutilizável: rodapé HTML, scripts JS, etc.)
-| |-- db.php                    (Arquivo de configuração da conexão com o banco de dados)
+├── includes/
+|   ├── cabecalho.php             (Componente reutilizável: cabeçalho HTML, menu, etc.)
+|   ├── rodape.php                (Componente reutilizável: rodapé HTML, scripts JS, etc.)
+|   └── db.php                    (Arquivo de configuração da conexão com o banco de dados)
 |
-|--- assets/                    (sugestão)
-| |-- css/
-| | |-- style.css               (Folha de estilos personalizada)
-| |
-| |-- js/
-| |-- script.js                 (Arquivo JavaScript com as funções AJAX e manipulação do DOM)>
+├── assets/                    (sugestão)
+|   ├── css/
+|   | └── style.css               (Folha de estilos personalizada)
+|   |
+|   ├── js/
+|   └── script.js                 (Arquivo JavaScript com as funções AJAX e manipulação do DOM)>
 |
-|--- index.php                  (Página inicial / Landing Page para visitantes)
-|--- cadastro.php               (Página com o formulário de cadastro)
-|--- login.php                  (Página com o formulário de login)
-|--- dashboard.php              (Painel principal do usuário logado para gerenciar atividades)
-|--- perfil.php                 (Página para o usuário alterar seus dados, como a senha)
-|--- README.md                  (Documentação do projeto)
+├── index.php                  (Página inicial / Landing Page para visitantes)
+├── cadastro.php               (Página com o formulário de cadastro)
+├── login.php                  (Página com o formulário de login)
+├── dashboard.php              (Painel principal do usuário logado para gerenciar atividades)
+├── perfil.php                 (Página para o usuário alterar seus dados, como a senha)
+└── README.md                  (Documentação do projeto)
 ```
 ## 🚀 Como Executar o Projeto
 
